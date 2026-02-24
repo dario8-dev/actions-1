@@ -1,4 +1,4 @@
-name: Generate ASCII
+name: Generate ASCII art
 
 on: push
 
