@@ -10,8 +10,15 @@ jobs:
             - name: Checkout Repo
               uses: actions/checkout@v6
             
-            - name: List files
-              run: ls
+            - name: List and Read files
+              run: |
+                echo "My frist Gihub Action" 
+                ls
+                cat README.md
             
-            - name: Read file
-              run: cat README.md
+            
+              #   - name: List files
+            #   run: ls
+            
+            # - name: Read file
+            #   run: cat README.md
